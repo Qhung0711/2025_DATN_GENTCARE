@@ -1,0 +1,9 @@
+<svg viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main brand name -->
+  <text x="140" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2d2d2d" text-anchor="middle">
+    GENTCARE
+  </text>
+  
+  <!-- Simple underline -->
+  <line x1="50" y1="55" x2="230" y2="55" stroke="#C9A961" stroke-width="2"/>
+</svg>
