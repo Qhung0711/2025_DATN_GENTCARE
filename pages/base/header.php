@@ -15,8 +15,8 @@ if (isset($_GET['logout']) && $_GET['logout'] == 1) {
 </style>
 <header class="header">
     <div class="header__topbar">
-        <div class="container p-relative d-flex space-between align-center">
-            <p class="h5">Miễn phí ship toàn quốc</p>
+        <div style="background-color: black;" class="container p-relative d-flex space-between align-center">
+            <p  class="h5">Miễn phí ship toàn quốc</p>
             <?php if (isset($_SESSION['account_email'])) {
             ?>
                 <a class="h5 login-btn p-absolute" href="index.php?logout=1">ĐĂNG XUẤT</a>

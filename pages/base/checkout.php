@@ -19,7 +19,7 @@ if (isset($_SESSION['account_id'])) {
                         ?>
                             <?php
                             if (isset($query_account)) {
-                                while ($account = mysqli_fetch_array($query_account)) {
+                                if ($account = mysqli_fetch_array($query_account)) {
                             ?>
                                     <div class="info__item d-flex">
                                         <label class="info__title" for="">Tên khách hàng:</label>

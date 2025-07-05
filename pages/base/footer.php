@@ -39,10 +39,8 @@
                     </div>
                 </div>
                 <div class="col" style="--w-md: 4">
-                    <div class="footer__block pd-top">
-                        <div class="footer__logo">
-                            <img src="./assets/images/logo/logo_guha.png" alt="logo">
-                        </div>
+                    <div class="footer__block pd-top d-flex justify-center align-center">
+                        <img src="./assets/images/logo/logo_gc.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -65,35 +63,15 @@
                     </div>
                 </div>
                 <div class="col" style="--w-md: 4;"></div>
-                <div class="col pd-top d-flex align-center" style="--w-md:4;">
-                    <ul class="social__items d-flex align-center">
-                        <li class="social__item">
-                            <a class="" href="#">
-                                <img class="svg__icon d-block" src="./assets/images/icon/twitter.svg" alt="" />
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="" href="#">
-                                <img class="svg__icon d-block" src="./assets/images/icon/facebook.svg" alt="" />
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="" href="#">
-                                <img class="svg__icon d-block" src="./assets/images/icon/instagram.svg" alt="" />
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="" href="#">
-                                <img class="svg__icon d-block" src="./assets/images/icon/tiktok.svg" alt="" />
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="" href="#">
-                                <img class="svg__icon d-block" src="./assets/images/icon/youtube.svg" alt="" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col pd-top d-flex justify-center align-center" style="--w-md: 4;">
+                <ul class="social__items d-flex align-center gap-2">
+                    <li class="social__item"><a href="#"><img class="svg__icon" src="./assets/images/icon/twitter.svg" alt="" /></a></li>
+                    <li class="social__item"><a href="#"><img class="svg__icon" src="./assets/images/icon/facebook.svg" alt="" /></a></li>
+                    <li class="social__item"><a href="#"><img class="svg__icon" src="./assets/images/icon/instagram.svg" alt="" /></a></li>
+                    <li class="social__item"><a href="#"><img class="svg__icon" src="./assets/images/icon/tiktok.svg" alt="" /></a></li>
+                    <li class="social__item"><a href="#"><img class="svg__icon" src="./assets/images/icon/youtube.svg" alt="" /></a></li>
+                </ul>
+            </div>
             </div>
         </div>
         <div class="footer__bottom">

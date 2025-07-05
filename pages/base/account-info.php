@@ -10,7 +10,7 @@ $query_account = mysqli_query($mysqli, $sql_account);
     </h2>
     <div class="checkout__infomation">
         <?php
-        while ($account = mysqli_fetch_array($query_account)) {
+        if ($account = mysqli_fetch_array($query_account)) {
         ?>
             <table class="w-100">
                 <tr>

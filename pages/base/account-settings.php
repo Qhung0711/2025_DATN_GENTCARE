@@ -11,7 +11,7 @@ $query_account = mysqli_query($mysqli, $sql_account);
         <div class="checkout__infomation">
 
             <?php
-            while ($account = mysqli_fetch_array($query_account)) {
+            if ($account = mysqli_fetch_array($query_account)) {
             ?>
                 <div class="info__item d-flex">
                     <label class="info__title" for="">Tên khách hàng:</label>

@@ -251,7 +251,7 @@ h6,
 }
 
 .header__logo img {
-  max-width: 90px;
+  max-width: 200px;
 }
 
 .header__nav {
@@ -2700,4 +2700,27 @@ abbr {
   border: 1px solid #ccc;
   display: none; /* Ẩn cửa sổ phóng to ban đầu */
   border-radius: 50%;
+}
+
+/* Custom styles for header__topbar and footer__bottom */
+.header__topbar {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.header__topbar .container .login-btn {
+  color: #fff !important;
+}
+
+.header__topbar p {
+  color: #fff !important;
+}
+
+.footer__bottom {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.footer__bottom .footer__copy--right {
+  color: #fff !important;
 }
