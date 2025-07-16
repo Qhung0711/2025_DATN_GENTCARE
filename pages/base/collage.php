@@ -16,7 +16,7 @@
                 </div>
                 <div class="collage__container">
                     <div class="collage__content d-flex">
-                        <a class="align-center" href="index.php?page=product_category&category_id=<?php echo $row['category_id'] ?>"> <?php echo $row['category_name']; ?> </a>
+                        <a class="align-center" href="index.php?page=products&category_id=<?php echo $row['category_id'] ?>"> <?php echo $row['category_name']; ?> </a>
                         <img src="./assets/images/icon/icon-nextlink.svg" alt="next-link" style="margin-left: 8px" />
                     </div>
                 </div>
